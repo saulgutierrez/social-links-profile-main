@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 335px;
+    background-color: hsl(0, 0%, 12%);
+    padding: 30px;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+
+.imgBox {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+    font-size: 10px;
+    margin-bottom: 25px;
+}
+
+.role {
+    font-size: 10px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+}
+
+ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+ul > li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0px;
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px 80px;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+li:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
